@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Outfit;
+}
+
+.learn {
+  background: #001233;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.external {
+  background-color: #0899;
+  color: #fff;
+  font-family: cursive;
+}
+
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.weight h2 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  position: relative;
+}
+.weight h2::after {
+  content: "";
+  height: 3px;
+  background-color: #fdc500;
+  bottom: -4px;
+  position: absolute;
+  width: 20%;
+  left: 0;
+}
+
+.sectionone {
+  background-color: #001233;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imageSection img {
+  height: 100px;
+  width: auto;
+  transition: 0.5s ease-in;
+  filter: drop-shadow(0px 0px 10px #02c39a);
+}
+.imageSection img:hover {
+  filter: drop-shadow(3px 3px 23px #02c39a);
+}
+
+.textSction {
+  color: #fff;
+  max-width: 400px;
+}
+
+.textSction h1 {
+  font-size: 45px;
+  color: #fdc500;
+  margin-top: 20px;
+  position: relative;
+}
+
+.textSction h1 span {
+  color: #fff;
+}
+.textSction h1::after {
+  content: "";
+  height: 3px;
+  background-color: #fdc500;
+  bottom: -4px;
+  position: absolute;
+  width: 50%;
+  left: 0;
+}
+
+/* .textSction h1:hover::after {
+  width: 100%;
+} */
+
+.textSction p {
+  font-size: 16px;
+  line-height: 20px;
+  margin: 20px 0;
+  /* text-align: center; */
+}
+
+.another {
+  background: #eaf4f4;
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.another form {
+  background-color: #001233;
+  padding: 30px;
+  max-width: 400px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 20px #adb5bd;
+  animation: bhalu 3s infinite;
+}
+
+.another form input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.button button {
+  padding: 8px 15px;
+  margin: 20px 0;
+  background-color: #fdc500;
+  color: #073b4c;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.button button:hover {
+  background-color: #ffd500;
+}
+
+/* @keyframes bhalu {
+  0% {
+    background-color: #073b4c;
+  }
+  30% {
+    background-color: blue;
+  }
+  100% {
+    background-color: aqua;
+  }
+} */

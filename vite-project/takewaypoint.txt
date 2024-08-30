@@ -1,0 +1,88 @@
+frontend 
+
+HTML => structure 
+CSS => TO looking good 
+react => used to deal with data 
+
+Image => always place image in public folder 
+in src of image tag always points the public pfile
+
+
+n design 
+
+
+component : 
+
+components are function whose  first letteris always capital and it is called just like <Home></Home>
+component must return only one wrapper .
+<></> => it is called react fragment 
+
+use {} (curly braces) to perform javascript operatieon inside tag (+, -, *, / variable call, map, fiter)
+
+component are custom tag 
+
+anything that is written inside return of components are printed (displayed) on the browser 
+
+
+
+rafce
+
+
+
+Routing (Changing path)
+NavLink change the URL 
+Route gives component based on url 
+
+localhost:3000/block?name=ram&age=20 => this  is a url 
+
+anything before "?" id route
+anything after "?" is caleld query string or search string 
+
+
+Here, block is called Route parameter and ame and age is called query parameter.
+
+
+
+import time from life time.heal()
+SELECT memories FROm life
+WHERE type like 'joyful'
+if(tioday.self>yesterday.self){
+    print("Yoou are in right path")
+
+    while (downfall){
+        reset()
+        reatart()
+        refocus()
+    }
+}
+
+
+DELETE from friends
+WHERE attitute = 'toxic
+
+
+Hooks in react
+1. useState()
+2. useEffect()
+3. useParams() => To get dynamic router parameter
+4. searchParams() => To get query parameter
+5. useNavigate() => To change path on click event 
+
+redux
+context APi 
+reduxtoolkit
+
+useEffect(()=>{
+    //render everytime 
+})
+useEffect(()=>{
+    //run first time only
+},[])
+
+
+
+
+input type              value               e.target.value
+all input types         state.value         e.target.value
+radio                   checked             e.target.checked
+checkbox                checked             e.target.checked
